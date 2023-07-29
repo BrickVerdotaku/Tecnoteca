@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/Style.css" />
+    <link rel="stylesheet" href="../CSS/Main.css" />
+    <title>Tecnoteca - Carrito</title>
+  </head>
+  <body>
+    <section id="section_header">
+      <div id="img-menu">
+        <a href="../Index.html"
+          ><img src="../IMG/Tecnoteca (Logo).png" alt=""
+        /></a>
+      </div>
+      <header id="header-navbar" style="display: none">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../Index.html">
+              <img src="../IMG/Tecnoteca (Logo).png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../Index.html"
+                    >Principal</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Contacts.html">Contactos</a>
+                </li>
+              </ul>
+              <div id="user">
+                <img
+                  src="../IMG/Avatar 2.png"
+                  id="img"
+                  alt="user"
+                  style="width: 50px; height: 50px"
+                />
+                <div id="profile" style="display: none">
+                  <div id="logout">
+                    <button id="logout-btn">Cerrar sesión</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="container">
+        <div id="login-container">
+          <h2>Iniciar sesión</h2>
+          <form id="login-form">
+            <input
+              type="text"
+              id="username"
+              placeholder="Usuario"
+              required
+              autocomplete="off"
+            />
+            <input
+              type="password"
+              id="password"
+              placeholder="Contraseña"
+              required
+            />
+            <a href="#">¿Olvidó su contraseña?</a>
+            <button type="submit">Iniciar sesión</button>
+            <!-- <a href="#">Registrarse</a> -->
+          </form>
+        </div>
+      </div>
+    </section>
+    <div class="wrapper" id="CarritO" style="display: none">
+      <header class="header-mobile">
+        <h1 class="logo">Tecnoteca</h1>
+        <button class="open-menu" id="open-menu">
+          <i class="bi bi-list"></i>
+        </button>
+      </header>
+      <aside>
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x"></i>
+        </button>
+        <header>
+          <h1 class="logo">Tecnoteca</h1>
+        </header>
+        <nav>
+          <ul>
+            <li>
+              <a class="boton-menu boton-volver" href="../HTML/Productos.html"
+                >Seguir comprando</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div id="profile" style="display: none">
+          <div id="logout">
+            <button id="logout-btn">Cerrar sesión</button>
+          </div>
+        </div>
+      </aside>
+      <main>
+        <h2 class="titulo-principal">Carrito</h2>
+        <div class="contenedor-carrito">
+          <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío.</p>
+          <div id="carrito-productos" class="carrito-productos disabled">
+            <!-- Esto se va a completar con el JS -->
+          </div>
+          <div id="carrito-acciones" class="carrito-acciones disabled">
+            <div class="carrito-acciones-izquierda">
+              <button
+                id="carrito-acciones-vaciar"
+                class="carrito-acciones-vaciar"
+              >
+                Vaciar carrito
+              </button>
+            </div>
+            <div class="carrito-acciones-derecha">
+              <div class="carrito-acciones-total">
+                <p>Total:</p>
+                <p id="total">$3000</p>
+              </div>
+              <button
+                id="carrito-acciones-comprar"
+                class="carrito-acciones-comprar"
+              >
+                Comprar ahora
+              </button>
+            </div>
+          </div>
+          <p id="carrito-comprado" class="carrito-comprado disabled">
+            Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i>
+          </p>
+        </div>
+      </main>
+    </div>
+    <footer
+      style="
+        background-color: #232323;
+        color: #fff;
+        padding-left: 25px;
+        padding-right: 25px;
+      "
+    >
+      <div class="logo" style="font-size: xx-large">Tecnoteca</div>
+      <div class="social">
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+      </div>
+      <br />
+      <div class="img-p" style="text-align: left">
+        <h4>Imágenes con fines informativos y de referencia</h4>
+        <p>
+          Las imágenes utilizadas son exclusivamente con fines informativos y de
+          referencia. No somos propietarios de los derechos de autor de estas
+          imágenes, a menos que se indique lo contrario. Respetamos los derechos
+          de propiedad intelectual de terceros y utilizamos las imágenes de
+          acuerdo con las leyes de derechos de autor y el principio de uso
+          legítimo. Si encuentras alguna imagen inapropiada o crees que se ha
+          utilizado de manera incorrecta, por favor avísanos.
+        </p>
+      </div>
+      <br />
+      <div class="copy">
+        <p>© 2023 Tecnoteca. Todos los derechos reservados.</p>
+      </div>
+      <br />
+    </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JAVASCRIPT/carrito.js"></script>
+    <script src="../JAVASCRIPT/menu.js"></script>
+    <script src="../JAVASCRIPT/principal.js"></script>
+    <script src="../JAVASCRIPT/profile.js"></script>
+    <script src="../JAVASCRIPT/index.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

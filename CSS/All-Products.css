@@ -1,0 +1,130 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/* Dispositivos menores a 576px */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+nav .navbar-collapse {
+  /* align-items: baseline; */
+  color: red;
+}
+#section_category {
+  background-color: #000000;
+  padding: 1rem;
+}
+.category {
+  padding-bottom: 1rem;
+}
+#container_todo .accordion-button {
+  background-color: #000000;
+  color: #fff;
+}
+#section_products {
+  background-color: #690000;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+#section_products .card {
+  width: 220px;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 0 0 0.35rem 0.35rem;
+}
+#section_products h1 {
+  min-width: 100%;
+  color: #fff;
+  text-align: center;
+}
+#section_pagination {
+  background-color: #222222;
+}
+#section_pagination ul {
+  justify-content: center;
+  margin: 0;
+  padding: 1rem;
+}
+footer {
+  height: 30vh;
+  background-color: #000000;
+  color: #fff;
+  padding: 2rem;
+}
+footer .logo {
+  font-size: 48px;
+}
+#category1 {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  #section_products {
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  #section_products .card img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #navbarText {
+    justify-content: space-between;
+  }
+  .navbar-nav {
+    margin: 0 auto;
+  }
+  .navbar-nav li {
+    margin: 0 1.5rem;
+  }
+  .navbar-text ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .navbar-text li {
+    margin: 0 0.5rem;
+  }
+  li a {
+    text-decoration: none;
+  }
+  #category_todo {
+    display: none;
+  }
+  #container_todo {
+    display: flex;
+  }
+  #category1 {
+    background-color: #222222;
+    display: block;
+    max-width: 325px;
+    height: auto;
+    padding: 1rem;
+  }
+  #category1 h4 {
+    color: #fff;
+    margin: 1.5rem auto;
+  }
+  .category {
+    padding-bottom: 0;
+    margin: 1rem 0;
+  }
+  #section_products {
+    display: flex;
+    height: auto;
+    max-width: 100vw;
+    /* overflow: auto; */
+  }
+  #section_products .card {
+    min-width: 200px;
+    height: auto;
+    margin: 2rem auto;
+  }
+}

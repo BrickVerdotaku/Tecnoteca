@@ -1,0 +1,322 @@
+[
+  {
+    "id": "smartphone-01",
+    "titulo": "Samsung Galaxy S22 Ultra",
+    "imagen": "../IMG/Aprobadas/Smartphones/Samsung Galaxy S22 Ultra.jpg",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "4,299,000.00"
+  },
+  {
+    "id": "smartphone-02",
+    "titulo": "Motorola Moto E40",
+    "imagen": "../IMG/Aprobadas/Smartphones/Motorola Moto E40.jpg",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "499,900.00"
+  },
+  {
+    "id": "smartphone-03",
+    "titulo": "Huawei P40 Lite",
+    "imagen": "../IMG/Aprobadas/Smartphones/Huawei P40 Lite.png",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "1,454,900.00"
+  },
+  {
+    "id": "smartphone-04",
+    "titulo": "Samsung A32 5G",
+    "imagen": "../IMG/Aprobadas/Smartphones/Samsung Galaxy A32-5G.png",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "799,900.00"
+  },
+  {
+    "id": "smartphone-5",
+    "titulo": "Xiaomi 12 Pro",
+    "imagen": "../IMG/Aprobadas/Smartphones/Redmi Note 12 Pro.jpeg",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "1,299,900.00"
+  },
+  {
+    "id": "smartphone-6",
+    "titulo": "Samsung Galaxy A53-5G",
+    "imagen": "../IMG/Aprobadas/Smartphones/Samsung Galaxy A53-5G.jpg",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "899,900.00"
+  },
+  {
+    "id": "smartphone-7",
+    "titulo": "Dilwe1 I12 Pro MAX",
+    "imagen": "../IMG/Aprobadas/Smartphones/Dilwe1 I12 Pro MAX.jpg",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "1,699,900.00"
+  },
+  {
+    "id": "smartphone-8",
+    "titulo": "Cubot X30",
+    "imagen": "../IMG/Aprobadas/Smartphones/Cubot X30.png",
+    "categoria": {
+      "nombre": "Smartphones",
+      "id": "smartphone"
+    },
+    "precio": "699,900.00"
+  },
+  {
+    "id": "tablet-01",
+    "titulo": "Tablet Samsung S7",
+    "imagen": "../IMG/Aprobadas/Tablets/Samsung Tab S7.png",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "2,999,900.00"
+  },
+  {
+    "id": "tablet-02",
+    "titulo": "Tablet Xiaomi Pad 5",
+    "imagen": "../IMG/Aprobadas/Tablets/Xiaomi Pad-5.jpg",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "1,999,900.00"
+  },
+  {
+    "id": "tablet-03",
+    "titulo": "Tablet Xiaomi Pad 6",
+    "imagen": "../IMG/Aprobadas/Tablets/Xiaomi Pad-6.jpg",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "1,599,900.00"
+  },
+  {
+    "id": "tablet-04",
+    "titulo": "Tablet Ipad 10ma Gen",
+    "imagen": "../IMG/Aprobadas/Tablets/Ipad 10ma Gen.png",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": " 2,779,900.00"
+  },
+  {
+    "id": "tablet-05",
+    "titulo": "Tablet Ipad Pro 6ta Gen",
+    "imagen": "../IMG/Aprobadas/Tablets/Ipad Pro-6.png",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "6,999,900.00"
+  },
+  {
+    "id": "tablet-06",
+    "titulo": "Tablet Ipad Air 5ta Gen",
+    "imagen": "../IMG/Aprobadas/Tablets/Ipad Air 5ta Gen.jpg",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "3,999,900.00"
+  },
+  {
+    "id": "tablet-07",
+    "titulo": "Tablet Apple Ipad Pro",
+    "imagen": "../IMG/Aprobadas/Tablets/Apple Ipad Pro.jpg",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "5,899,900.00"
+  },
+  {
+    "id": "tablet-08",
+    "titulo": "Tablet Samsung A7 Lite",
+    "imagen": "../IMG/Aprobadas/Tablets/Samsung Galaxy A7 Lite.jpg",
+    "categoria": {
+      "nombre": "Tablets",
+      "id": "tablet"
+    },
+    "precio": "2,599,900.00"
+  },
+  {
+    "id": "laptop-01",
+    "titulo": "Portatil HP 15S",
+    "imagen": "../IMG/Aprobadas/Portatiles/HP 15S.png",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "1.899.900,00"
+  },
+  {
+    "id": "laptop-02",
+    "titulo": "Portatil HP Victus 16",
+    "imagen": "../IMG/Aprobadas/Portatiles/HP Victus 16.png",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "2,399,900,00"
+  },
+  {
+    "id": "laptop-03",
+    "titulo": "Portatil Acer Nitro 5",
+    "imagen": "../IMG/Aprobadas/Portatiles/Acer Nitro.png",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "3,899,900,00"
+  },
+  {
+    "id": "laptop-04",
+    "titulo": "Portatil MSI Modern 14",
+    "imagen": "../IMG/Aprobadas/Portatiles/MSI Modern 14.png",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "3,499,900,00"
+  },
+  {
+    "id": "laptop-05",
+    "titulo": "Portatil MacBook Pro M2",
+    "imagen": "../IMG/Aprobadas/Portatiles/Apple MacBook Pro M2.jpg",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "7,599,900,00"
+  },
+  {
+    "id": "laptop-06",
+    "titulo": "Portatil Compaq Presario",
+    "imagen": "../IMG/Aprobadas/Portatiles/Compaq Presario F500.jpg",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "799,900,00"
+  },
+  {
+    "id": "laptop-07",
+    "titulo": "Portatil ASUS X415",
+    "imagen": "../IMG/Aprobadas/Portatiles/ASUS X415.jpg",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "1,199,900,00"
+  },
+  {
+    "id": "laptop-08",
+    "titulo": "Portatil Toshiba Satellite",
+    "imagen": "../IMG/Aprobadas/Portatiles/Toshiba Satellite C655.jpg",
+    "categoria": {
+      "nombre": "Laptops",
+      "id": "portatil"
+    },
+    "precio": "599,900,00"
+  },
+  {
+    "id": "accesorio-01",
+    "titulo": "Audífonos K240",
+    "imagen": "../IMG/Aprobadas/Accesorios/Headphones 1.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "199.900"
+  },
+  {
+    "id": "accesorio-02",
+    "titulo": "Audífonos Borofone",
+    "imagen": "../IMG/Aprobadas/Accesorios/Headphones 2.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "229.900"
+  },
+  {
+    "id": "accesorio-03",
+    "titulo": "Multi USB 3.0 4-Puertos",
+    "imagen": "../IMG/Aprobadas/Accesorios/Multi USB 3.0 4-Puertos.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "24.900"
+  },
+  {
+    "id": "accesorio-04",
+    "titulo": "Memoria USB Maxell 256GB",
+    "imagen": "../IMG/Aprobadas/Accesorios/Memoria USB Maxell 256GB.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "89.900"
+  },
+  {
+    "id": "accesorio-05",
+    "titulo": "Soporte para Celular",
+    "imagen": "../IMG/Aprobadas/Accesorios/Soporte para Celular Plegable.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "39.900"
+  },
+  {
+    "id": "accesorio-06",
+    "titulo": "Quemadora Externa DVD",
+    "imagen": "../IMG/Aprobadas/Accesorios/Quemadora Externa DVD.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "99.900"
+  },
+  {
+    "id": "accesorio-07",
+    "titulo": "Webcam Logitech C920X",
+    "imagen": "../IMG/Aprobadas/Accesorios/Webcam Logitech C920X.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "124.900"
+  },
+  {
+    "id": "accesorio-08",
+    "titulo": "Base Refrigerante Portatil",
+    "imagen": "../IMG/Aprobadas/Accesorios/Base Refrigerante para Portatil.jpg",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorio"
+    },
+    "precio": "29.900"
+  }
+]
